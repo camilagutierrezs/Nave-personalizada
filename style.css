@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b19;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    /* Aplicamos tu imagen de fondo personalizada */
+    background-image: url('fondo estrellas.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #4a90e2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.5);
+}
+
+#nave {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    /* Posición inicial en el centro */
+    left: 365px;
+    top: 215px;
+}
+
+#nave img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#instrucciones {
+    margin-top: 15px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
